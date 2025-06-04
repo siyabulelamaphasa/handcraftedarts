@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HANDCRAFTEDARTS</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <img src="/static/images/logo.jpg" alt="logo" class="logo"> <span>HANDCRAFTEDARTS</span>
+        </div>
+        <div class="header-right">
+            <a href="https://www.instagram.com/officialslaq88_/?fbclid=IwY2xjawKtWIBleHRuA2FlbQIxMABicmlkETBuNFN4bE9vQ1JORWdSQ0hXAR6qgh9MZwoypOna0vmfpW852YjB1gI6rvAQDo9XNV4ZtgXjYNFcmaXW3KH9qA_aem_xEimwloe2r9iyaAO7-UwkQ">Instagram</a>
+            <a href="https://facebook.com/slaqblxde">Facebook</a>
+            <a href="https://x.com/officialslaq?fbclid=IwY2xjawKtWLRleHRuA2FlbQIxMABicmlkETBuNFN4bE9vQ1JORWdSQ0hXAR66693uU82FtEyE0NUw491ord8fHD_MSGuUaW7j7UCSLePahRZD-C3--xMtZQ_aem_60UIPEhMc6wh7EeFehjv1Q">X</a>
+        </div>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/artist">Artists</a>
+            <a href="/contact">Contacts</a>
+        </nav>
+    </header>
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer>
+        <a href="https://linktr.ee/slaq88_?fbclid=IwY2xjawKtWP5leHRuA2FlbQIxMABicmlkETBuNFN4bE9vQ1JORWdSQ0hXAR6YqP2dWZcJjq_uEJjlldAYdLsetmn0rBNCsnK06KNYqQDGHcVQsG2o1GTqig_aem_YiGzvqprvLqub0UKe6Ef6w">H A N D C R A F T E D A R T S</a> |
+        <a href="https://linktr.ee/slaq88_?fbclid=IwY2xjawKtWP5leHRuA2FlbQIxMABicmlkETBuNFN4bE9vQ1JORWdSQ0hXAR6YqP2dWZcJjq_uEJjlldAYdLsetmn0rBNCsnK06KNYqQDGHcVQsG2o1GTqig_aem_YiGzvqprvLqub0UKe6Ef6w">home of jams</a>
+        <h3>Join our mailing list</h3>
+        <input type="email" placeholder="Email*">
+        <button>Subscribe</button>
+        <p>I want to subscribe to your mailing list.</p>
+        <p>slaqblxde@gmail.com</p>
+        <p>+27 75 089 7127</p>
+        <p>Bloemfontein, South Africa</p>
+        <p>© 2025 by h a n d c r a f t e d a r t s. Powered and secured by S.MAPHASA</p>
+    </footer>
+</body>
+</html>

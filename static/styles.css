@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #111;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-left {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    height: 30px;
+    margin-right: 10px;
+}
+.header-right a {
+    margin-left: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+nav {
+    margin-top: 10px;
+}
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ccc;
+}
+main {
+    padding: 20px;
+}
+.banner-image, .full-img {
+    width: 100%;
+    height: auto;
+}
+.description {
+    padding: 10px;
+    max-width: 800px;
+    margin: auto;
+    font-size: 16px;
+}
+.releases {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 20px;
+}
+.release {
+    display: flex;
+    align-items: center;
+}
+.release img {
+    height: 100px;
+    margin-right: 15px;
+}
+footer {
+    background: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+footer a {
+    color: #66ccff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+input[type="email"] {
+    padding: 5px;
+    margin-top: 10px;
+}
+button {
+    padding: 5px 10px;
+    margin-left: 10px;
+}
